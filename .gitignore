@@ -1,0 +1,17 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+
+# Generated images — large binaries, don't commit
+personas/*/sfw/
+personas/*/nsfw/
+personas/*/output/
+personas/*/output_nsfw/
+personas/*/train_*/
+
+# LoRA weights
+*.safetensors
